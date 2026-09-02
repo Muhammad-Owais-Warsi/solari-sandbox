@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@google/genai": "^2.20.0",
+    "@langchain/core": "^1.2.9",
+    "@langchain/google-genai": "^2.3.0",
+    "@solarisdk/sandbox": "^0.1.2",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/ws": "^8.18.1",
+    "axios": "^1.20.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "langchain": "^1.5.10",
+    "openai": "^7.8.0",
+    "ws": "^8.21.3",
+    "zod": "^4.5.4"
+  }
+}
